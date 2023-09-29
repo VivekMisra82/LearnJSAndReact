@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title> This is for practice purpose only</title>
+    </head>    
+    <body>
+        <script>
+        let a=0,b=1,c;
+
+        let n=prompt("Enter Number of Terms");
+        let term=Number(n);
+        if(term<0)
+         document.write("Please Enter a Valid number");
+        else if(n==0)
+         document.write(a);
+        else{
+            document.write(a+"+"+b+"+")
+            for(let i=3;i<=term;i++)
+            {
+             c=a+b;
+             document.write(c+"+");
+             a=b;
+             b=c;
+            }
+        }
+
+        
+    </script>
+    </body>
+</html>
