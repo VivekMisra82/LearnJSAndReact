@@ -1,0 +1,21 @@
+<html>
+    <head>
+         <title> For Demo only</title>
+    </head>
+    <body>
+        <script>
+            let ages=[12,34,6,17];
+            document.write(ages+"<br><br>");
+            let b=ages.find(checkValue);
+            document.write(b+"<br><br>");
+
+            let c=ages.findIndex(checkValue)
+            document.write(c);
+            
+            function checkValue(age)
+            {
+                return age >= 15;
+            }
+        </script>
+    </body>
+</html>

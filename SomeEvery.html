@@ -1,0 +1,21 @@
+<html>
+    <head>
+         <title> For Demo only</title>
+    </head>
+    <body>
+        <script>
+            let ages=[12,34,6,17];
+            document.write(ages);
+            let b=ages.some(ageCheck);
+            document.write("<br>"+b);
+
+            let c=ages.every(ageCheck);
+            document.write("<br><br>"+c);
+
+           function ageCheck(age)
+            {
+                return age>=5;
+            }
+        </script>
+    </body>
+</html>
